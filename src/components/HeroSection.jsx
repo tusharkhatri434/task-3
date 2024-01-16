@@ -5,7 +5,7 @@ import { FiGithub } from "react-icons/fi";
 const HeroSection = () => {
 
   return (
-    <div className="pt-16 bg-stone-50">
+    <div data-testid="HeroSectionID" className="pt-16 bg-stone-50">
       <div className="max-w-5xl mx-auto px-8  bg-stone-50">
         <div className="flex max-[500px]:flex-col-reverse items-center">
           <div className="max-w-lg">
@@ -31,7 +31,6 @@ const HeroSection = () => {
               >
                 <FiGithub size="2rem" />
               </a>
-              
             </span>
           </div>
           <div className="w-96">
